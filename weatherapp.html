@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style-weather-app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js-weather-app.js"></script>
+</head>
+
+<body>
+
+    <section class="container">
+        <h1>Weather App</h1>
+
+        <input type="text" name="seach-key-words" id="search-input" value="Vancouver">
+        <button id="search-button">Search</button>
+    </section>
+
+    <section id="result" class="result-container">
+
+        <h2 id="city"></h2>
+
+        <div>
+            <h3>Temperatures | K</h3>
+            <p id="temp"></p>
+        </div>
+        <div>
+            <h3>Humidity</h3>
+            <p id="humid"></p>
+        </div>
+    </section>
+</body>
+
+</html>

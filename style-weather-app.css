@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(248, 160, 101));
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form {
+    text-align: center;
+}
+input {
+    font-size: 30px;
+}
+input[value="Vancouver"] {color: rgb(190, 190, 190);}
+input:focus {
+    background-color: rgb(246, 237, 218);
+    color: rgb(170, 72, 72);
+}
+button {
+    font-size: 30px;
+    background-color: rgb(224, 121, 72);
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.result-container {
+    display: none;
+}
+.result-style {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px;
+}
+#result p {
+    font-size: 20px;
+    color: rgb(80, 82, 81);
+}
+
+
+
+
